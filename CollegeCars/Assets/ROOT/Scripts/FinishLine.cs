@@ -18,7 +18,7 @@ public class FinishLine : MonoBehaviour
     }
     private void OnTriggerEnter(Collider other)
     {
-        if (other.gameObject.tag == "Car")
+        if (other.gameObject.tag == "PlayerCube")
         {
             WinText.SetActive(true);
         }
